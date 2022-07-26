@@ -79,7 +79,7 @@ function valid_mail(mail, clase1){
     }
 }
 
-//funcion coneccion API Math.js.
+//funcion conexion API Math.js.
 function api_res(razon){
     let N = document.querySelector('.ans')
     fetch(`http://api.mathjs.org/v4/?expr=${razon}`)
